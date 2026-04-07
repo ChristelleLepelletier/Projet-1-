@@ -1,0 +1,7 @@
+date,client,produit,quantite,prix,ville
+2024-01-01,Alice,Livre,2,12,Paris
+2024-01-02,Bob,Stylo,10,2,Lyon
+2024-01-02,Alice,Cahier,3,5,Paris
+2024-01-03,David,Livre,1,15,Marseille
+2024-01-03,Bob,Cahier,4,5,Lyon
+2024-01-04,Alice,Stylo,5,3,Paris
