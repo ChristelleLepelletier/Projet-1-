@@ -10,8 +10,9 @@ st.title("📊 Dashboard interactif des ventes")
 
 
 # charger ton fichier CSV dans ton app avec pandas
-chemin = r"C:\Users\chris\Documents\PYTHON\exercices_a_faire\Chatgpt\intermediaire\ventes.csv"
-df = pd.read_csv(chemin)
+#chemin = r"C:\Users\chris\Documents\PYTHON\exercices_a_faire\Chatgpt\intermediaire\ventes.csv"
+#df = pd.read_csv(chemin)
+df = pd.read_csv("ventes.csv")
 
 df["total"] = df["prix"] * df["quantite"]
 df["date"] = pd.to_datetime(df["date"])
