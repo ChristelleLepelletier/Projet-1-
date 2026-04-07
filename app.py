@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import plotly.express as px
 import io
+import os
+st.write(os.listdir())
 
 st.title("📊 Dashboard interactif des ventes")
 
